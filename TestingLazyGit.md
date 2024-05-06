@@ -2,4 +2,4 @@
 
 ## Accessing side pane
 
-hey this is my feature to change
+Shine like a diamond
