@@ -4,6 +4,10 @@
 
 Correspond more or less to what you see on the screen
 
+## CH
+
+1ch is equal to the width of the character '0'
+
 ## Relative Units
 
 ### Ems
@@ -18,6 +22,10 @@ Its relative to the <html> tag. It respects user's preferences.
 ### Percentages
 
 Often used with a width/height, as a way to consume portions of the available space.
+
+### VW
+
+Each vw is 1% of the viewport width
 
 ## Accessibility
 

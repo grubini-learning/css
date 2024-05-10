@@ -24,6 +24,8 @@ Styles that target sub-elements of an HTML element. They target elements in the 
 
 - `::placeholder`
 - `::before`, `::after`: secret span, only use if the effect is strictly decorative
+- `::first-letter`
+  - `text-indent: 2rem`
 
 ## [Combinators](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators)
 
