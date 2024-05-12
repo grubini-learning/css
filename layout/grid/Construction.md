@@ -1,5 +1,13 @@
 # Construction
 
+## Defaults
+
+- By default it we just supply `display: grid`, it becomes an implicit grid. (creates 1 new row for each element)
+- If we give the grid a height, then the row's height is divided equally among its children
+- absolute positioned children completely ignore the grid layout
+- Every child gets its own cell
+- the rows grow and shrink based on the children
+
 ## Defining columns
 
 `grid-template-columns` property
@@ -22,7 +30,8 @@
 
 ### Flexible columns
 
-We want columns to grow, if their content does not fit.
+- We want columns to grow, if their content does not fit.
+- We can think of it as `flex-grow`, except it operates on the column and not on the actual child
 
 ```css
 .wrapper {
