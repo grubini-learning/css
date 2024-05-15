@@ -30,7 +30,7 @@ CSS grid is highly interoperable with other layouts
     "sidebar main"
     "footer footer";
   --header-height: 5rem;
-  isolattion: isolate;
+  isolation: isolate;
 }
 
 header {
@@ -62,8 +62,11 @@ footer {
 
 ```css
 .wrapper {
+  --breathing-room: 16px;
   display: grid;
   grid-template-columns: 1fr, min(30ch, 100%), 1fr;
+  padding-left: var(--breathing-room);
+  padding-right: var(--breathing-room);
 }
 
 .wrapper > * {
@@ -72,5 +75,7 @@ footer {
 
 .full-bleed {
     grid-column 1 / -1;
+    margin-left: var(--breathing-room);
+    margin-right: var(--breathing-room);
 }
 ```
