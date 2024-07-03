@@ -85,6 +85,19 @@ Scale images proportionally at a prescribed `aspect-ratio`
 - property takes two slash separated numbers
   - 2 / 1: the image will be 2 times wider as it is tall
 
+```css
+.image-wrapper {
+  flex: 1;
+}
+
+img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 2;
+  object-fit: cover;
+}
+```
+
 ## Images and Flexbox
 
 Use a wrapper
